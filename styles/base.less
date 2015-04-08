@@ -40,12 +40,13 @@ atom-text-editor .bracket-matcher .region, :host .bracket-matcher .region {
   border-bottom: 1px solid @syntax-cursor-color;
 }
 
-atom-text-editor .search-results .marker .region, :host .search-results .marker .region {
+atom-text-editor .find-result .region, :host .find-result .region {
   background-color: transparent;
   border: @syntax-result-marker-color;
 }
 
-atom-text-editor .search-results .marker.current-result .region, :host .search-results .marker.current-result .region {
+atom-text-editor .current-result .region, :host .current-result .region {
+  background-color: @syntax-result-marker-background-color-selected;
   border: @syntax-result-marker-color-selected;
 }
 
